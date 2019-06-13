@@ -1,0 +1,32 @@
+.cart{
+  position: relative;
+  width: 100%;
+  .table{
+    width: 100%;
+    margin-bottom: 2rem;
+    td{
+      padding: 0.5rem 0;
+    }
+    .quantity{
+      width: 120px;
+    }
+  }
+  &__summary{
+    > div{
+      margin-bottom: 1rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    &__items{
+      display: flex;
+    }
+    &__table{
+      width: 60%;
+    }
+    &__summary{
+      width: 40%;
+      background: #fff;
+      padding: 2rem;
+    }
+  }
+}
