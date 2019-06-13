@@ -1,6 +1,14 @@
-# EcommerceAngular
+# Frontend with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+## Installation
+
+To install this project simply clone or download the repo:
+
+`git clone https://github.com/czapizzle/m2e-client-angular.git`
+
+`cd m2e-client-angular`
+
+`npm install`
 
 ## Development server
 
